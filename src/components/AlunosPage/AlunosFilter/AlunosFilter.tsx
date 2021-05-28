@@ -57,6 +57,7 @@ const FilterAlunosForm = (props: Props) => {
     <Box display="flex" alignItems="center">
       <FormControl variant="outlined" size="small">
         <Select
+          id="select-filter"
           value={filterBy}
           onChange={(e) => handleSelectChange(e.target.value as string)}
         >
@@ -68,6 +69,7 @@ const FilterAlunosForm = (props: Props) => {
 
       <Box ml={2} />
       <TextField
+        id="text-filter"
         placeholder="Filtrar"
         size="small"
         value={text}
