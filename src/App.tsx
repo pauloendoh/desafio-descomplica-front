@@ -1,15 +1,17 @@
+import { ApolloProvider } from "@apollo/client"
+import { CssBaseline } from "@material-ui/core"
 import React from "react"
-import { createClient, Provider } from "urql"
 import "./App.css"
-import Home from "./components/Home"
-
-const client = createClient({ url: "http://localhost:8000/graphql" })
+import Home from "./components/Home/Home"
+import { client } from "./graphql/client"
 
 function App() {
   return (
-    <Provider value={client}>
+    <ApolloProvider client={client}>
+      <CssBaseline />
+
       <Home />
-    </Provider>
+    </ApolloProvider>
   )
 }
 

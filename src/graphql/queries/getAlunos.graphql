@@ -1,0 +1,5 @@
+query getAlunos($nome: String, $cpf: String, $email: String ) {
+    getAlunos(nome: $nome, cpf: $cpf, email: $email) {
+        ...AlunoFragment
+    }
+}
