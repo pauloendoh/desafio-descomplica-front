@@ -2,7 +2,7 @@
 
 Esse projeto se refere à aplicação React para buscar e filtrar alunos.
 
-É importante estar rodando a API antes: https://github.com/pauloendoh/desafio-descomplica-back
+É necessário rodar a API antes: https://github.com/pauloendoh/desafio-descomplica-back
 
 ## Como executar esse projeto
 
