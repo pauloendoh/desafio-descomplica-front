@@ -4,7 +4,7 @@ import { Aluno, useGetAlunosQuery } from "../../generated/graphql"
 import AlunosTable from "./AlunosTable/AlunosTable"
 import AlunosFilter from "./AlunosFilter/AlunosFilter"
 
-const Home = () => {
+const AlunosPage = () => {
   const [alunos, setAlunos] = useState<Aluno[]>([])
   const result = useGetAlunosQuery()
 
@@ -22,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default AlunosPage

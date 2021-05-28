@@ -1,8 +1,7 @@
 import { ApolloProvider } from "@apollo/client"
 import { CssBaseline } from "@material-ui/core"
 import React from "react"
-import "./App.css"
-import Home from "./components/Home/Home"
+import AlunosPage from "./components/AlunosPage/AlunosPage"
 import { client } from "./graphql/client"
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <ApolloProvider client={client}>
       <CssBaseline />
 
-      <Home />
+      <AlunosPage />
     </ApolloProvider>
   )
 }
