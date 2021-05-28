@@ -2,11 +2,11 @@ import { ApolloProvider } from "@apollo/client"
 import { CssBaseline } from "@material-ui/core"
 import React from "react"
 import AlunosPage from "./components/AlunosPage/AlunosPage"
-import { client } from "./graphql/client"
+import { apolloClient } from "./graphql/apolloClient"
 
 function App() {
   return (
-    <ApolloProvider client={client}>
+    <ApolloProvider client={apolloClient}>
       <CssBaseline />
 
       <AlunosPage />
