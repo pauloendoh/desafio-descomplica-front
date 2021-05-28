@@ -1,6 +1,6 @@
 # desafio-descomplica-front
 
-Esse projeto se refere ao projeto em React para apresentar e filtrar alunos.
+Esse projeto se refere à aplicação React para buscar e filtrar alunos.
 
 É importante estar rodando a API antes: https://github.com/pauloendoh/desafio-descomplica-back
 
